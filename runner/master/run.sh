@@ -372,7 +372,7 @@ then
   echo ">>> startsection Starting selenium server <<<"
   echo "============================================================================"
 
-  SHMMAP="--shm-size=2g"
+  SHMMAP="--shm-size=4g"
 
   HASSELENIUM=1
 
