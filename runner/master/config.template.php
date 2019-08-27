@@ -128,4 +128,13 @@ if ($ionicurl = getenv('IONICURL')) {
     $CFG->behat_ionic_wwwroot = $ionicurl;
 }
 
+define('QTYPE_STACK_TEST_CONFIG_PLATFORM',        'server');
+define('QTYPE_STACK_TEST_CONFIG_MAXIMAVERSION',   '%%STACKMAXIMAVERSION%%');
+define('QTYPE_STACK_TEST_CONFIG_CASTIMEOUT',      '5');
+define('QTYPE_STACK_TEST_CONFIG_CASRESULTSCACHE', 'none');
+define('QTYPE_STACK_TEST_CONFIG_MAXIMACOMMAND',   '%%STACKMAXIMAPOOL%%');
+define('QTYPE_STACK_TEST_CONFIG_PLOTCOMMAND',     '');
+define('QTYPE_STACK_TEST_CONFIG_MAXIMALIBRARIES', 'stats, distrib, descriptive, simplex');
+define('QTYPE_STACK_TEST_CONFIG_CASDEBUGGING',    '0');
+
 require_once(__DIR__ . '/lib/setup.php');
